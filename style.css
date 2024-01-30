@@ -30,9 +30,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 8px;
   }
   .logo {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 800;
   }
   nav ul {
@@ -50,13 +51,92 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 64px 0;
+  }
+  .hero-text, .hero-image {
+    width: 50%;
+    padding: 32px;
+  }
+  .hero-image img {
+    width: 100%;
+  }
+  .hero-image {
+    padding-right: 0;
+  }
+  .hero-text {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    padding-left: 0;
+  }
+  .hero-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+  }
+  .btn-1 {
+    padding: 10px 30px;
+    background-color: #3882F6;
+    flex-grow: 0;
+    border-radius: 8px;
   }
   /*----------------------------------------------
   ------------------------------------------------
   3. Main Body Styles
   ------------------------------------------------
   ----------------------------------------------*/
-  
+  .main-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .services-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10vh 10vw;
+  }
+  .services-section h2 {
+    font-size: 36px;
+    font-weight: 900;
+    padding-bottom: 32px;
+  }
+  .services {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+  }
+  .service-icon {
+    width: 160px;
+    height: 160px;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+  }
+  .service-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 10vh 10vw;
+  }
+  .quote-section blockquote p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+  }
+  .quote-section footer {
+    font-weight: 900;
+    text-align: right;
+    padding-top: 24px;
+  }
   /*----------------------------------------------
   ------------------------------------------------
   4. Sidebar Styles
